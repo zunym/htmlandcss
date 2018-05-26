@@ -1,0 +1,13 @@
+h1{
+    /* property : value; end the line with semi colon*/
+    background-color: blue;
+    color: yellow;
+}
+
+em{
+    font-size: 20px;
+}
+
+.my-color{
+    color: orangered;
+}
