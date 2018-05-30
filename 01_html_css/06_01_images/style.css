@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    
+}
+img{
+    
+    max-width: 100%;
+}
+.my-box{
+    width: 500px;
+    height: 500px;
+    background-image: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/dp/p02vdpfn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:-300px;
+    background-position-y:-200px;
+
+
+}
+
+.my-container{
+    max-width: 400px;
+    padding: 20px;
+}
+
+.my-img{
+    width: 700px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.div1{
+    width:600px;
+    background-image: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/dp/p02vdpfn.jpg);
+    height: 900px;
+    background-attachment: fixed;
+}
+.div2{
+    max-width: 600px;
+}

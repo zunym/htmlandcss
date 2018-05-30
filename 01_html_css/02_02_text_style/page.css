@@ -45,3 +45,16 @@
 .my-strong{
 	text-shadow: -2px -2px 0 orangered;	
 }
+
+a{
+	color:yellow;
+}
+.my-link:hover{
+	color:blue;
+}
+my-link:active{
+	color:red;
+}
+a:visited{
+	color: green;
+}
