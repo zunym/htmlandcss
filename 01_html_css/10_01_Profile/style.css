@@ -1,5 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 
+/* body class - back ground */
+.my-container{
+    background-image: url(bubble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* division div class */
+.my-box{
+    /* border: #aaa;
+	background-color: white;
+	max-width: 400px;
+	margin: 110px auto 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato"; */
+	background-color: #efefefb5;
+	max-width: 600px;
+	margin: 110px auto 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato";
+}
+
+.my-box h1{
+	text-align: center;
+	text-shadow: 5px 5px 5px rgba(1,1,1,0.1);
+}
+.my-box ul{
+	max-width: 200px;
+	margin: auto;
+}
+
+.my-box p{
+	text-align: center;
+}
+.my-box table{
+	margin: auto;
+	border: 2px solid red;
+}
+.my-box td{
+	border: 1px solid blue;
+}
+
+.my-box .my-hr{
+	max-width: 400px;
+	border: 5px solid black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.my-face{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	margin-top: -100px;
+
+}
+
 .my-form{
 	font-family: "Lato";
 	max-width: 400px;
@@ -80,4 +142,12 @@ input[type=submit]:hover{
 /*this optional style removes the yellow background of chrome's autofill*/
 input[type]:-webkit-autofill {
     box-shadow: 0 0 0px 1000px white inset;
+}
+
+@media(max-width:768px) {
+	h1 {font-size: 18px;}
+}
+
+@media(min-width:900px) {
+	h1 {font-size: 50px;}
 }
