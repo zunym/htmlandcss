@@ -37,11 +37,11 @@
 .my-box p{
 	text-align: center;
 }
-.my-box table{
+table{
 	margin: auto;
 	border: 2px solid red;
 }
-.my-box td{
+td{
 	border: 1px solid blue;
 }
 

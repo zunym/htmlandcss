@@ -1,3 +1,19 @@
 .btn {
     font-size: 12px;
+    color: black;
+    /* width: 450px; */
+}
+
+.jumbotron{
+    background-image: url(http://win8art.com/uploads/posts/2013-03/1363591182_1920x1200.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+    
+	/* background-attachment: fixed; */
+}
+
+h1{
+    text-shadow: 5px 5px 5px rgba(1,1,1,0.1);
 }
