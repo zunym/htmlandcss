@@ -9,11 +9,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: yellow;
-    
+    color: gray;    
 	/* background-attachment: fixed; */
 }
 
 h1{
-    text-shadow: 5px 5px 5px rgba(1,1,1,0.1);
+    text-shadow: 15px 15px 15px rgba(1,1,1,0.1);
 }
