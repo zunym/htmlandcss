@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+body{
+  margin:0;
+  background-image: url(../images/universe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  color: orangered;
+  font-weight: 900;
+  display: inline;
+}
+
+p{
+  color: pink;
+  text-shadow: 30px 30px 30px rgba(1,1,1,0.1);
+  font-size: 20px;
+  text-decoration: bold;
+  /* font-family: "Lato"; */
+}
+
+.container{
+  /* background-image: url(../images/bubble.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.my-box{
+font-family: "Lato";
+background-color: #efefefb5;
+max-width: 600px;
+margin: 110px auto 10px auto;
+padding: 1rem;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+font-family: "Lato";
+text-align: center;
+}
+
+.my-box h1{
+	text-align: center;
+	text-shadow: 5px 5px 5px rgba(1,1,1,0.1);
+}
+.my-box ul{
+	max-width: 200px;
+	margin: auto;
+}
+
+.my-box .my-hr{
+	max-width: 400px;
+	border: 5px solid black;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.my-box p{
+	text-align: center;
+}
+
+.my-img{
+  border: solid black;  
+}
+
+.my-face{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	margin-top: 10px;
+}
+
+.my-h3{
+  color: orangered;
+  font-size: 20px;
+}
+
+.my-form{
+	font-family: "Lato";
+	max-width: 400px;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.my-form-group{
+	margin: 20px 0;
+	/* margin-top: 20px;
+	margin-bottom: 20px; */
+}
+
+table{
+	margin: auto;
+	border: 2px solid red;
+}
+td{
+	border: 1px solid blue;
+}
+
+#navbar-top {
+    overflow: hidden;
+    background-color: orangered;
+    position: fixed !important;    
+    display: block;
+    left: 0%;
+    top: 0%;
+  }
+  
+#navbar-top a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+#navbar-top a:hover {
+    background-color: #4CAF50;
+    color: black;
+  }
+  
+#navbar-top a.active {
+    background-color: orangered;
+    color: white;
+  }
+
+#navbar-bottom {
+    overflow: hidden;
+    background-color: orangered;
+    position: fixed !important;    
+    display: block;
+    right: 0;
+    bottom: 0%;
+  }
+  
+#navbar-bottom a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+.jumbotron{
+    /* background-image: url(http://win8art.com/uploads/posts/2013-03/1363591182_1920x1200.png); */
+    background-color: #efefefb5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 30px 30px 30px rgba(1,1,1,0.1);
+    font-weight: 900;
+    color:black;
+
+}
+
+.thumbnail{
+    max-width: 350px;
+    max-height: auto;
+    margin: auto;
+    background-color: #efefefb5;
+	/* margin: 110px auto 10px auto; */
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato";
+}
+
+
+

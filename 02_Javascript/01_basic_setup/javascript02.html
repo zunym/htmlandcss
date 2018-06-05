@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My javascript 02</title>
+    <script language="javascript" type="text/javascript">
+        var myObject;
+        myObject = [{
+            "id": 1,
+            "name": "Yin",
+            "dob": "01-Jan-1977",
+            "cars": ["Civic", "Evolution", "Subaru"]
+        },
+        {
+            "id": 2,
+            "name": "Zun",
+            "dob": "03-Dec-1972",
+            "cars": ["QQ", "Chevrolet", "Mini"]
+        },
+        {
+            "id": 3,
+            "name": "Mon",
+            "dob": "11-Jun-1977",
+            "cars": ["BMW", "Mercedes", "Lexus"]
+        }];
+        var linebreak = "<br>";
+        function printData(count) {
+            var name = myObject[count].name;
+            var dob = myObject[count].dob;
+            // var car = myObject[count].cars[1];
+            var car;
+            var carlen = myObject[count].cars.length;
+            for (var i = 0; i < carlen; i++) {
+                 car += myObject[count].cars[i];   
+            }
+
+            var x = document.getElementById("demo").innerHTML;
+            // document.getElementById("demo").innerHTML += name + linebreak + dob + linebreak + car + linebreak;
+            document.getElementById("demo").innerHTML = x + name + linebreak + dob + linebreak + car + linebreak;
+        }
+
+        function whileloopData(){
+            var counter =0;
+            while(counter<myObject.length){
+                printData(counter);
+                counter++;
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <input type="button" value="Print Data" onclick="whileloopData()" />
+    <p id="demo">
+
+
+    </p>
+
+
+</body>
+
+</html>
