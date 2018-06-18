@@ -1,40 +1,32 @@
-/* <img src="beer.jpg" class="small"> */
 
-function createBottle(numOFBottles){
+function createBottle(numOfBottle){
     var divElem = document.createElement('div');
-    for(var i=0; i< numOFBottles;i++){
-        //Create image
+    for(var i =0; i<numOfBottle;i++){
         var imgElem = document.createElement('img');
-        imgElem.setAttribute('src', './images/beer.jpg');
-        //css 
-        imgElem.classList.add('small')
-        //append to div
+        imgElem.setAttribute('src','beer.jpg');
+        imgElem.classList.add('small');
         divElem.appendChild(imgElem);
     }
-    return(divElem);
+    return (divElem);
 }
 
-
-
-// div some text </div>
 function createText(line){
     var divElem = document.createElement('div');
-    divElem.textContent = line;
+    divElem.textContent=line;
     return(divElem);
 }
-
-var beerSongElem = document.body.querySelector('#beer-song');
-
-for(var i =  99; i > 0; i--) {
+var beerSong = document.body.querySelector('#beer-song');
+for(var i =99; i>0;i--){
     var pElem = document.createElement('p');
     var bottle = createBottle(i);
     pElem.appendChild(bottle);
-
     var text = createText(`${i} bottles of beer on the wall, ${i} bottles of beer`);
     pElem.appendChild(text);
 
     var text = createText(`Take one down and pass it around, ${i-1} bottles of beer`);
-    pElem.appendChild(text);  
-
-    beerSongElem.appendChild(pElem);
+    pElem.appendChild(text);   
+    beerSong.appendChild(pElem);
 }
+
+
+
